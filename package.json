@@ -1,19 +1,11 @@
 {
-  "name": "resizing",
+  "name": "telegram-resize-bot",
   "version": "1.0.0",
-  "description": "A Telegram bot that resizes images based on user-specified dimensions.",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-"dependencies": {
-    "node-telegram-bot-api": "^0.56.0",
-    "axios": "^1.3.0",
-    "sharp": "^0.32.0",
-    "mongodb": "^5.1.0"
-  },
-  "engines": {
-    "node": ">=14.0.0"
+  "dependencies": {
+    "axios": "^1.6.2",
+    "mongodb": "^6.3.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "sharp": "^0.33.0"
   }
 }
-
